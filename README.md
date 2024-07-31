@@ -10,4 +10,4 @@ The alignment_rsubread Docker container is based on Ubuntu 22.04 and includes Sa
 
 **Generate Alignment Statistics**: alignment_stats.R calculates the percentage of mapped reads and the percentage of duplicates among the mapped reads.
 
-*Usage*: docker run --rm -v $(pwd):/workspace alignment:v1 /scripts/alignment_stats.R /workspace/path_to_output_folder> </workspace/path_to_sample_name_1> </workspace/path_to_sample_name_2> </workspace/path_to_sample_name_n>
+*Usage*: docker run --rm -v $(pwd):/workspace alignment_rsubread:v1 /scripts/alignment_stats.R /workspace/path_to_output_folder> </workspace/path_to_sample_name_1> </workspace/path_to_sample_name_2> </workspace/path_to_sample_name_n>
